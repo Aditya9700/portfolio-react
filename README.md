@@ -1,4 +1,4 @@
-# ✨ Modern React Developer Portfolio
+#  Modern React Developer Portfolio
 
 A stunning, highly responsive, and premium personal portfolio website designed to showcase projects, skills, and developer credentials with modern aesthetics and smooth interactions.
 
@@ -6,14 +6,14 @@ A stunning, highly responsive, and premium personal portfolio website designed t
 
 ---
 
-## 🚀 Features
+##  Features
 
-- **📱 Fully Responsive Design:** Meticulously optimized for all screen sizes, including mobiles, tablets, and desktops.
-- **🎨 Premium Aesthetics:** Dynamic harmonious styling with elegant CSS gradients, subtle hover micro-animations, and sleek dark modes.
-- **⚡ Supercharged Performance:** Built on top of **Vite** for blazing fast local builds and instant loading times in production.
-- **📬 Dynamic Contact Form:** Elegant interactive contact form for seamless communication.
-- **🧱 Modular Components:** Clean, maintainable, and reusable React architecture (`Navbar`, `Hero`, `About`, `Skills`, `Projects`, `Contact`).
-- **☁️ Vercel Optimization:** Includes pre-configured `vercel.json` for reliable routing, clean URLs, and fast static asset caching.
+- ** Fully Responsive Design:** Meticulously optimized for all screen sizes, including mobiles, tablets, and desktops.
+- ** Premium Aesthetics:** Dynamic harmonious styling with elegant CSS gradients, subtle hover micro-animations, and sleek dark modes.
+- ** Supercharged Performance:** Built on top of **Vite** for blazing fast local builds and instant loading times in production.
+- ** Dynamic Contact Form:** Elegant interactive contact form for seamless communication.
+- ** Modular Components:** Clean, maintainable, and reusable React architecture (`Navbar`, `Hero`, `About`, `Skills`, `Projects`, `Contact`).
+- ** Vercel Optimization:** Includes pre-configured `vercel.json` for reliable routing, clean URLs, and fast static asset caching.
 
 ---
 
@@ -26,7 +26,7 @@ A stunning, highly responsive, and premium personal portfolio website designed t
 
 ---
 
-## 💻 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
