@@ -1,0 +1,112 @@
+.skills-section {
+  width: 100%;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+.skills-card {
+  padding: 2.5rem 2rem;
+  text-align: left;
+}
+
+.category-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, var(--text-primary), var(--text-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-left: 3px solid var(--accent-cyan);
+  padding-left: 0.75rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-name {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.skill-percent {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  background: rgba(34, 211, 238, 0.05);
+  border: 1px solid rgba(34, 211, 238, 0.15);
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+}
+
+/* Skills Cards alternate Accent highlights */
+.skills-card:nth-child(2n) .skill-percent {
+  color: var(--accent-violet);
+  background: rgba(167, 139, 250, 0.05);
+  border-color: rgba(167, 139, 250, 0.15);
+}
+
+.skills-card:nth-child(3n) .skill-percent {
+  color: var(--accent-pink);
+  background: rgba(244, 114, 182, 0.05);
+  border-color: rgba(244, 114, 182, 0.15);
+}
+
+/* Progress bar styling */
+.skill-bar-track {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  border-radius: 9999px;
+  background: var(--accent-gradient);
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+  width: 0;
+  transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Alternate fill shadows for aesthetics */
+.skills-card:nth-child(2n) .skill-bar-fill {
+  background: linear-gradient(90deg, var(--accent-violet), var(--accent-pink));
+  box-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+}
+
+.skills-card:nth-child(3n) .skill-bar-fill {
+  background: linear-gradient(90deg, var(--accent-pink), var(--accent-cyan));
+  box-shadow: 0 0 10px rgba(244, 114, 182, 0.5);
+}
+
+/* Responsiveness adjustments */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
